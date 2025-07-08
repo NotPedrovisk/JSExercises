@@ -11,7 +11,9 @@ const sum = function(array) {
     initial + currentItem,0)
 };
 
-const multiply = function() {
+const multiply = function(array) {
+  return array.reduce((initial, currentItem)=>
+    initial * currentItem,1);
 
 };
 
